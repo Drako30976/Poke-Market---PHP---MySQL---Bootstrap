@@ -1,0 +1,3 @@
+mauros - 123456 - usuario
+alejandros - mortadela1 - admin
+mas1702 - mauro.1702 - superadmin

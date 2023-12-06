@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+body{
+
+    margin-top: 1em;
+
+}
+h1{
+    display: none;
+}
+.navegacion{
+    background-image: url(../img/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8em;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.nav-link{
+    color: black !important;
+}
+.content{
+    margin-top: 3em;
+}
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.281);
+    margin-top: 10px;
+    max-width: 80%;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 1em auto;
+}
+.cardcatalogo{
+    border-radius: 10px !important;
+    border: 2px solid black !important;
+}
+.card li{
+    list-style: none;
+}
+.button a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.button:hover{
+    box-shadow: inset 400px 50px 0 0 #2481EF;
+}
+.button a:hover{
+    color: aliceblue;
+}
+.home, .notfund{
+    width: 80%;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+}
+.home h1{
+    text-align: center;
+    margin: 1em 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+.home p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em 1em;
+}
+.home p:nth-child(3){
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.home div{
+    max-width: 15em;
+    height: 100%;
+    margin: auto;
+}
+.home img{
+    width: 100%;
+    display: block;
+}
+.notfund h1{
+    text-align: center;
+    margin: 1em 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6em;
+}
+.notfund h3{
+    text-align: center;
+    margin: 1em 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: em;
+}
+.notfund div,img{
+    max-width: 15em;
+    height: 100%;
+    margin: auto;
+}
+.tipo{
+    width: 5em;
+    border-radius: 6px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.agua{
+    background: #2481EF;
+}
+.fuego{
+    background: #E72324;
+}
+.planta{
+    background: #3DA224;
+}
+.fant{
+    background: #704170;
+}
+.acero{
+    background-color: #60A2B9;
+}
+.bicho{
+    background-color: #92A212;
+}
+.dragon{
+    background-color: #4F60E2;
+}
+.elec{
+    background-color: #FAC000;
+}
+.hada{
+    background-color: #EF71EF;
+}
+/* -------------seccion compra de producto------------------- */
+.tarjeta{
+    margin: auto;
+    max-width: 70%;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tarjeta>p{
+    height: 10%;
+    border-radius: 4px;
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgba(165, 154, 154, 0.438);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
+}
+.main{
+    display: flex;
+    height: 89%;
+    border-radius: 4px;
+    border: 3px solid black;
+}
+.imagen{
+    display: flex;
+    width: 40%; 
+    height: 100%; 
+    max-width: 100%; 
+    max-height: 100%; 
+    text-align: center;
+    border-right: 3px solid black;
+    background-image: url(../img/fondo_pokedex.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imagen img{
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: drop-shadow(-10px 10px 8px rgba(0, 0, 0, 0.575));
+}
+.contenido{
+    background-color: rgba(0, 0, 0, 0.281);
+    max-width: 60%;
+    margin: 0;
+}
+.tarjeta ul{
+    margin: 0;
+    padding: 0;
+}
+
+.contenido li p{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+.contenido li:nth-child(odd){
+    background: #d6dee0c5;
+    list-style: none;
+} 
+.contenido li:nth-child(even) {
+	background: #8c8dc4b7;
+    list-style: none;
+}
+.boton{
+    width: 40%;
+    height: 3em;    
+    margin: 0.2em auto;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.514);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-out 0.4s;
+    background-color:#5697e6;
+
+}
+.boton a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.boton:hover{
+    box-shadow: inset 400px 50px 0 0 #1c64bd;
+}
+.boton a:hover{
+    color: aliceblue;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.precio{
+    color: #c41610;
+    font-size: 2em;
+}
+.spawn{
+    width: 10em;
+}
+.spawn img{
+    width: 100%;
+    display: block;
+}
